@@ -17,7 +17,7 @@ const Hero = () => (
           </Link>
         </li>
         <li>
-          <Link href="/">
+          <Link href="/register">
             <a>Sign up</a>
           </Link>
         </li>
@@ -37,7 +37,7 @@ const Hero = () => (
         }
         description="The easiest way for cataloging your valuable things"
         button={
-          <Link href="">
+          <Link href="/login">
             <a>
               <Button xl>Get started</Button>
             </a>
